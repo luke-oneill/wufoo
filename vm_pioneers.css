@@ -1,0 +1,508 @@
+/* ----- Logo ----- */
+
+#logo a {
+	background-image:url('http://www.virginmediapioneers.com/wp-content/themes/bp-vmp/img/vmp-logo.png'); 
+	min-height:0;
+	height:230px;
+}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.richvisionssb.co.uk/wp-content/uploads/2014/03/virgin-startup-logo.jpg", sizingMethod="crop");
+}
+
+/* ----- Backgrounds ----- */
+html{ 
+	background-image:none;	background-color:#EEEEEE;
+}
+#logo{
+	background-image:none;	background-color:#ffffff;
+}
+#container, html.embed{
+	background-color:#FFFFFF;
+}
+.safari .wufoo input.file{
+	background:none;
+	border:none;
+}
+
+.wufoo li.focused{
+	background-color:#FFF7C0;
+}
+.wufoo .instruct{
+	background-color:#F5F5F5;
+}
+
+/* ----- Borders ----- */
+#container{
+	border:1px solid #ffffff;
+}
+.wufoo .info, .wufoo .paging-context{
+	border-bottom:0 dotted #cccccc;
+}
+.wufoo .section h3, .wufoo .captcha, #payment .paging-context{
+	border-top:0 dotted #cccccc;
+}
+.wufoo input.text, .wufoo textarea.textarea{
+
+}
+.wufoo .instruct{
+	border:0 solid #e6e6e6;
+}
+.fixed .info{
+	border-bottom:none;
+}
+.wufoo li.section.scrollText{
+	border-color:#dedede;
+}
+
+/* ----- Typography ----- */
+.wufoo .info h2{
+	font-size:160%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#000000;
+}
+.wufoo .info div{
+	font-size:95%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#444444;
+}
+.wufoo .section h3{
+	font-size:110%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:bold;
+	color:#000000;
+}
+.wufoo .section div{
+	font-size:85%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#444444;
+}
+
+.wufoo label.desc, .wufoo legend.desc{
+	font-size:95%;
+	font-family:inherit;
+	font-style:italic;
+	font-weight:normal;
+	color:#ff0000;
+}
+
+.wufoo label.choice{
+	font-size:100%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#ff0000;
+}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file, .wufoo select.select{
+	font-style:normal;
+	font-weight:normal;
+	color:#333333;
+	font-size:100%;
+}
+{* Custom Fonts Break Dropdown Selection in IE *}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo input.file{ 
+	font-family:inherit;
+}
+
+
+.wufoo li div, .wufoo li span, .wufoo li div label, .wufoo li span label{
+	font-family:inherit;
+	color:#ff0000;
+}
+.safari .wufoo input.file{ /* Webkit */
+	font-size:100%;
+	font-family:inherit;
+	color:#ff0000;
+}
+.wufoo .instruct small{
+	font-size:80%;
+	font-family:inherit;
+	font-style:normal;
+	font-weight:normal;
+	color:#444444;
+}
+
+.altInstruct small, li.leftHalf small, li.rightHalf small,
+li.leftThird small, li.middleThird small, li.rightThird small,
+.iphone small{
+	color:#444444 !important;
+}
+
+/* ----- Button Styles ----- */
+
+.wufoo input.btTxt{
+
+}
+
+/* ----- Highlight Styles ----- */
+
+.wufoo li.focused label.desc, .wufoo li.focused legend.desc,
+.wufoo li.focused div, .wufoo li.focused span, .wufoo li.focused div label, .wufoo li.focused span label,
+.safari .wufoo li.focused input.file{ 
+	color:#000000;
+}
+
+/* ----- Confirmation ----- */
+
+.confirm h2{
+	font-family:inherit;
+	color:#ff0000;
+}
+a.powertiny b, a.powertiny em{
+	color:#1a1a1a !important;
+}
+.embed a.powertiny b, .embed a.powertiny em{
+	color:#1a1a1a !important;
+}
+
+/* ----- Pagination ----- */
+
+.pgStyle1 var, .pgStyle2 var, .pgStyle2 em, .page1 .pgStyle2 var, .pgStyle1 b, .wufoo .buttons .marker{
+	font-family:inherit;
+	color:#ff0000;
+}
+.pgStyle1 var, .pgStyle2 td{
+	border:1px solid #cccccc;
+}
+.pgStyle1 .done var{
+	background:#cccccc;
+}
+
+.pgStyle1 .selected var, .pgStyle2 var, .pgStyle2 var em{
+	background:#FFF7C0;
+	color:#000000;
+}
+.pgStyle1 .selected var{
+	border:1px solid #e6dead;
+}
+
+
+/* Likert Backgrounds */
+
+.likert table{
+	background-color:#FFFFFF;
+}
+.likert thead td, .likert thead th{
+	background-color:#e6e6e6;
+}
+.likert tbody tr.alt td, .likert tbody tr.alt th{
+	background-color:#f5f5f5;
+}
+
+/* Likert Borders */
+
+.likert table, .likert th, .likert td{
+	border-color:#dedede;
+}
+.likert td{
+	border-left:1px solid #cccccc;
+}
+
+/* Likert Typography */
+
+.likert caption, .likert thead td, .likert tbody th label{
+	color:#ff0000;
+	font-family:inherit;
+}
+.likert tbody td label{
+	color:#e60000;
+	font-family:inherit;
+}
+.likert caption, .likert tbody th label{
+	font-size:95%;
+}
+
+/* Likert Hover */
+
+.likert tbody tr:hover td, .likert tbody tr:hover th, .likert tbody tr:hover label{
+	background-color:#FFF7C0;
+	color:#000000;
+}
+.likert tbody tr:hover td{
+	border-left:1px solid #ccc69a;
+}
+
+/* ----- Running Total ----- */
+
+.wufoo #lola{
+	background:#e6e6e6;
+}
+.wufoo #lola tbody td{
+	border-bottom:1px solid #cccccc;
+}
+.wufoo #lola{
+	font-family:inherit;
+	color:#ff0000;
+}
+.wufoo #lola tfoot th{
+	color:#cc0000;
+}
+
+/* ----- Report Styles ----- */
+
+.wufoo .wfo_graph h3{
+	font-size:95%;
+	font-family:inherit;
+	color:#ff0000;
+}
+.wfo_txt, .wfo_graph h4{
+	color:#ff0000;
+}
+.wufoo .footer h4{
+	color:#000000;
+}
+.wufoo .footer span{
+	color:#ff0000;
+}
+
+/* ----- Number Widget ----- */
+
+.wfo_number{
+	background-color:#f5f5f5;
+	border-color:#dedede;
+}
+.wfo_number strong, .wfo_number em{
+	color:#000000;
+}
+
+/* ----- Chart Widget Border and Background Colors ----- */
+
+#widget, #widget body{
+	background:#FFFFFF;
+}
+.fcNav a.show{
+	background-color:#FFFFFF;
+	border-color:#cccccc;
+}
+.fc table{
+	border-left:1px solid #dedede;	
+}
+.fc thead th, .fc .more th{
+	background-color:#dedede !important;
+	border-right:1px solid #cccccc !important;
+}
+.fc tbody td, .fc tbody th, .fc tfoot th, .fc tfoot td{
+	background-color:#FFFFFF;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #dedede;
+}
+.fc tbody tr.alt td, .fc tbody tr.alt th, .fc tbody td.alt{
+	background-color:#f5f5f5;
+}
+
+/* ----- Chart Widget Typography Colors ----- */
+
+.fc caption, .fcNav, .fcNav a{
+	color:#ff0000;
+}
+.fc tfoot, 
+.fc thead th,
+.fc tbody th div, 
+.fc tbody td.count, .fc .cards tbody td a, .fc td.percent var,
+.fc .timestamp span{
+	color:#000000;
+}
+.fc .indent .count{
+	color:#f50000;
+}
+.fc .cards tbody td a span{
+	color:#b30000;
+}
+
+/* ----- Chart Widget Hover Colors ----- */
+
+.fc tbody tr:hover td, .fc tbody tr:hover th,
+.fc tfoot tr:hover td, .fc tfoot tr:hover th{
+	background-color:#FFF7C0;
+}
+.fc tbody tr:hover th div, .fc tbody tr:hover td, .fc tbody tr:hover var,
+.fc tfoot tr:hover th div, .fc tfoot tr:hover td, .fc tfoot tr:hover var{
+	color:#000000;
+}
+
+/* ----- Payment Summary ----- */
+
+.invoice thead th, 
+.invoice tbody th, .invoice tbody td,
+.invoice tfoot th,
+.invoice .total,
+.invoice tfoot .last th, .invoice tfoot .last td,
+.invoice tfoot th, .invoice tfoot td{
+	border-color:#dedede;
+}
+.invoice thead th, .wufoo .checkNotice{
+	background:#f5f5f5;
+}
+.invoice th, .invoice td{
+	color:#000000;
+}
+#ppSection, #ccSection{
+	border-bottom:0 dotted #cccccc;
+}
+#shipSection, #invoiceSection{
+	border-top:0 dotted #cccccc;
+}
+
+/* Drop Shadows */
+
+/* - - - Local Fonts - - - */
+
+/* - - - Responsive - - - */
+
+@media only screen and (max-width: 480px) {
+	html{
+		background-color:#FFFFFF;
+	}
+	a.powertiny b, a.powertin em{
+		color:#1a1a1a !important;
+	}
+}
+
+/* - - - Custom Theme - - - */
+
+input[type=submit] {
+	-moz-box-shadow: 0px 0px 0px 0px #8a2a21;
+	-webkit-box-shadow: 0px 0px 0px 0px #8a2a21;
+	box-shadow: 0px 0px 0px 0px #8a2a21;
+	background-color:#c62d1f;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius:8px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:14px;
+	padding:12px 29px;
+	text-decoration:none;
+	position: relative;
+	float: right;
+}
+input[type=submit]:hover {
+	background-color:#f24437;
+}
+input[type=submit]:active {
+	position:relative;
+	top:1px;
+}
+
+
+input[type=text], input[type=email], textarea.textarea, input.text {
+	height: 38px;
+	-webkit-border-radius: 21px;
+	-moz-border-radius: 21px;
+	border-radius: 21px;
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+	box-sizing: border-box;
+	width: 360x;
+	border: 1px solid #e5e5e5;
+	padding: 0 36px;
+	color: #525252;
+	font-size: 10pt;
+	font-weight: 200;
+	letter-spacing: 1px;
+	top: 10px;
+	background: none;
+	outline: none;
+	resize: none;
+}
+
+textarea.textarea {
+	padding: 15px;
+	border: 1px solid #e5e5e5;
+	background: none !important;
+	height: 70px;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea.textarea:focus, input.text:focus {
+	border: 1px solid rgba(0, 114, 203, 0.4);
+}
+
+form li.focused {
+	background-color: #fff;
+}
+
+.wufoo li.focused {
+	background-color: #fff;
+}
+
+.wufoo label.desc, .wufoo legend.desc {
+	font-style: normal;
+	color: #222;
+	padding: 4px 0px 7px 9px;
+}
+
+form ul {
+	background-image: url('http://www.richvisionssb.co.uk/wp-content/uploads/2014/03/virgin-startup-logo.jpg');
+	background-repeat: no-repeat;
+	background-size: 40%;
+	background-position-y: 100%;
+	padding-bottom: 30px;
+	background-position-x: 3%;
+}
+
+@media only screen and (max-width: 990px) {
+	form ul {
+		padding-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	form ul {
+		background-size: 35%;
+		padding-bottom: 50px;
+
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	form ul {
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	form ul {
+		padding-bottom: 0px;
+		background-image: none;
+	}
+}
+
+.confirm h2 {
+	color: #222;
+	padding-top: 235px;
+	padding: 247px 50px 30px 50px;
+	font-size: 140%;	
+	background-image: url('http://www.richvisionssb.co.uk/wp-content/uploads/2014/03/virgin-startup-logo.jpg');
+	background-repeat: no-repeat;
+}
+
+form li.error {
+	background-color: #fff !important;
+}
+
+form li.error p.error {
+	margin-left: 10px !important;
+}
+
+form li.error input {
+	border: 1px solid rgba(203, 0, 0, 0.4);
+}
+
+#errorLi {
+	border: none;
+}
+
+#errorMsgLbl {
+	font-size: 100%;
+}
