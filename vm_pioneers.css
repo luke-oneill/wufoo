@@ -1,6 +1,6 @@
 /* ----- Logo ----- */
 
-#logo a.testtest {
+#logo a {
 	background-image:url('http://www.virginmediapioneers.com/wp-content/themes/bp-vmp/img/vmp-logo.png'); 
 	min-height:0;
 	height:230px;
@@ -443,7 +443,7 @@ form li.focused {
 }
 
 form ul {
-	background-image: url('http://www.richvisionssb.co.uk/wp-content/uploads/2014/03/virgin-startup-logo.jpg');
+	background-image: url('http://www.virginmediapioneers.com/wp-content/themes/bp-vmp/img/vmp-logo.png');
 	background-repeat: no-repeat;
 	background-size: 40%;
 	background-position-y: 100%;
