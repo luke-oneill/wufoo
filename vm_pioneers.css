@@ -7,7 +7,7 @@
 }
 * html #logo a {/* IE6 png Support */
 	background-image: none;
-	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.richvisionssb.co.uk/wp-content/uploads/2014/03/virgin-startup-logo.jpg", sizingMethod="crop");
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://www.virginmediapioneers.com/wp-content/themes/bp-vmp/img/vmp-logo.png", sizingMethod="crop");
 }
 
 /* ----- Backgrounds ----- */
@@ -483,7 +483,7 @@ form ul {
 	padding-top: 235px;
 	padding: 247px 50px 30px 50px;
 	font-size: 140%;	
-	background-image: url('http://www.richvisionssb.co.uk/wp-content/uploads/2014/03/virgin-startup-logo.jpg');
+	background-image: url('http://www.virginmediapioneers.com/wp-content/themes/bp-vmp/img/vmp-logo.png');
 	background-repeat: no-repeat;
 }
 
