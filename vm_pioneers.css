@@ -3,7 +3,7 @@
 #logo a {
 	background-image:url('http://www.virginmediapioneers.com/wp-content/themes/bp-vmp/img/vmp-logo.png'); 
 	min-height:0;
-	height:230px;
+	height: 80px;
 }
 * html #logo a {/* IE6 png Support */
 	background-image: none;
