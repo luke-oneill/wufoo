@@ -404,7 +404,7 @@ input[type=text], input[type=email], textarea.textarea, input.text {
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	box-sizing: border-box;
-	width: 360x;
+	width: 360px;
 	border: 1px solid #e5e5e5;
 	padding: 0 36px;
 	color: #525252;
@@ -445,9 +445,10 @@ form li.focused {
 form ul {
 	background-image: url('http://www.virginmediapioneers.com/wp-content/themes/bp-vmp/img/vmp-logo.png');
 	background-repeat: no-repeat;
-	background-size: 40%;
-	background-position-y: 100%;
+	background-size: 260px;
+	background-position-y: 97%;
 	background-position-x: 3%;
+	padding-bottom: 12px;
 }
 
 
