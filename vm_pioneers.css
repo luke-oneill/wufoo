@@ -480,3 +480,7 @@ form li.error input {
 #errorMsgLbl {
 	font-size: 100%;
 }
+
+form.wufoo {
+	min-width: 455px;
+}
